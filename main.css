@@ -1,29 +1,57 @@
 .header {
-  width:75%;
-  margin: 0 auto;
-  background-color: purple;
-  border-style: solid;
-  border-width: 5px;
-  margin-width: 20px;
   padding-top:20px;
   padding-bottom:20px;
-  
 }
 .header h1{
     width: 50%;
     margin: 0 auto;
     text-transform: uppercase;
     font-size: 66px;
-    font-weight: bold;
+    font-style: bold;
     color: pink;
     
 }
 
-.line-separator{
-  height:1px;
-  background:#717171;
-  border-bottom:1px solid #313030;
+.jumbotron {
+  margin: 0 auto;
+  width:50%;
+}
 
+.line-separator-1{
+  width: 75%;
+  margin: 0 auto;
+  height:1px;
+  background:#313030;
+  border-bottom:1px solid #313030;
+}
+
+.line-separator-2{
+  width: 75%;
+  margin: 0 auto;
+  height:2px;
+  background:#717171;
+  border-bottom:2px solid #717171;
+}
+
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    width: 60px;
+}
+
+
+.nav li {
+  float: left;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .pre-jumbotron {
@@ -31,9 +59,11 @@
   margin: 0 auto;
 }
 
-.jumbotron {
+.nav {
+  width: 15%;
   margin: 0 auto;
-  width:50%;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 .welcome {
